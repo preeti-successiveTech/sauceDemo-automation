@@ -1,0 +1,32 @@
+# ignore system / parent folder junk
+../../*
+../*
+*.svg
+*.log
+.DS_Store
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+node_modules
+allure-results
+allure-report
+test-results
+dist
+screenshots
+traces
+.env
+
+# allow only project files
+!src/
+!config/
+!package.json
+!package-lock.json
+!tsconfig.json
+!cucumber.js
+!.github/
